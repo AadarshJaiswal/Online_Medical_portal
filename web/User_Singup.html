@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration</title>
+<style>
+	body {
+
+  background-color: #FFFFE0;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.centerdiv{
+	width: 650px;
+	height: 680px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: blue;
+	transform: translate(-50%,-50%);
+	border: 15px solid lightseagreen;
+	background-color: lightgrey
+
+
+}h1{
+	text-align: center;
+
+	text-transform: uppercase;
+	font-size: 2em;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	text-shadow: -2px 2px 1px #0A84C6;
+}
+h2{
+	text-align: left;
+
+	text-transform: uppercase;
+	font-size: 1.5em;
+	word-spacing: 8px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-shadow: -2px 2px 1px #0A84C6;
+}
+.inputbox{
+	width: calc(100% - 20%);
+	height: 40px;
+	display: block;
+	margin: auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: black;
+}
+
+.button {
+	width: calc(30% - 10px);
+  background-color:#0A84C6;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -10px 200px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+ .navbar {
+  list-style-type: none;
+   margin-top: -8px;
+  padding: 50;
+  height: 50px;
+   overflow: hidden;
+  <!--background-color: #013A6B;-->
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(100deg, lightseagreen 30%, skyblue 80%);
+}
+
+.navbar a {
+  float: left;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+</style>
+</head>
+<body>
+<form action="RegisterUser" method="Post">
+	<div class="navbar">
+	<div class="container">
+	<div class="centerdiv">
+	<br><br><br><br>
+	<div>
+     <h1> Registration</h1>
+     <div class="form">
+
+         <h2>&nbsp;&nbsp;FullName </h2><input type="text" name="Name" class="inputbox" placeholder="FullName" required>
+		</div>
+		<div>
+		<h2>&nbsp;&nbsp;Email</h2><input type="text" name="Email" class="inputbox" placeholder="Email" required="required">
+		</div>
+		<div>
+		<h2>&nbsp;&nbsp;Password</h2><input type="Password" name="Password" class="inputbox" placeholder="Password" required="required">
+		</div>
+
+		<div>
+		<h2>&nbsp;&nbsp;Contact no.</h2><input type="text" name="Mobile" class="inputbox" placeholder="Contact no." required="required">
+		</div>
+                <div>
+                <h2>&nbsp;&nbsp;Address </h2><input type="text" name="Address" class="inputbox" placeholder="Address" required="required">
+		</div>
+		<br> <br> <br><br>
+                <button type="submit" class="button button" name="action"id="action" value="signup">Register</a>
+                    
+                </button>
+</div>
+
+	</div>
+</div>
+</div>
+</form>
+</body>
+</html>
