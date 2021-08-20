@@ -28,5 +28,15 @@
   </p>
   <h2>Patient</h2>
   <p>
-  1. 
+  1. Can Login and Logout.<br>
+  2. Can view their profile.<br>
+  3. Can Book Appointment.<br>
+  4. Can cancel Booked Appointment.<br>
   </p>
+</p>
+<h2>Tools Used</h2>
+  1. Netbeans.<br>
+  2. MYSQL Database<br>
+  
+<h2>Working of Project With Screenshots<h2>
+  <img src="1.png" width=600>
